@@ -19,3 +19,6 @@ https://booknook-server-dvp2.onrender.com
 - User-specific book management
 ## API Overview
 The backend provides REST API endpoints for library management.
+
+## Book Endpoints
+The API supports creating, reading, updating, and deleting books.
