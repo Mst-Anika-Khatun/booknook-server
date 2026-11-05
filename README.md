@@ -22,3 +22,6 @@ The backend provides REST API endpoints for library management.
 
 ## Book Endpoints
 The API supports creating, reading, updating, and deleting books.
+
+## Borrow Endpoints
+The API supports borrowing and returning available books.
