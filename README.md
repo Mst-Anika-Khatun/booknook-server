@@ -28,3 +28,6 @@ The API supports borrowing and returning available books.
 
 ## Authentication
 Protected API requests require a valid JWT.
+
+## Deployment
+The backend API is hosted on Render.
