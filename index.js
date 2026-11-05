@@ -26,7 +26,10 @@ async function requireAuth(req, res, next) {
     if (!payload.email) return error(res, 401, 'Email missing from token');
     req.user = { email: payload.email, name: payload.name || '' };
     next();
-  } catch { return error(res, 401, 'Invalid or expired token'); }
+  } catch (err) {
+  console.error('JWT verification failed:', err);
+  return error(res, 401, 'Invalid or expired token');
+}
 }
 app.get('/', (_, res) => res.json({ message: 'BookNook API running' }));
 app.get('/books', async (req, res) => {
