@@ -17,3 +17,5 @@ https://booknook-server-dvp2.onrender.com
 - Protected routes
 - Book availability tracking
 - User-specific book management
+## API Overview
+The backend provides REST API endpoints for library management.
