@@ -31,3 +31,6 @@ Protected API requests require a valid JWT.
 
 ## Deployment
 The backend API is hosted on Render.
+
+## API Hosting
+Production API: https://booknook-server-dvp2.onrender.com
