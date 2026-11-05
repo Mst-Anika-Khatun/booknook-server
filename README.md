@@ -25,3 +25,6 @@ The API supports creating, reading, updating, and deleting books.
 
 ## Borrow Endpoints
 The API supports borrowing and returning available books.
+
+## Authentication
+Protected API requests require a valid JWT.
